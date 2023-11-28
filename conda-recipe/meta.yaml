@@ -1,9 +1,12 @@
 package:
   name: fast_dijkstra
-  version: '0.1.0'
+  version: 0.1.0
 
 source:
   path: ..
+
+build:
+  script: python setup.py install
 
 requirements:
   build:
@@ -11,12 +14,11 @@ requirements:
     - setuptools
   run:
     - python
-    - numpy>=1.20
+    - numpy >=1.20
 
 test:
-  commands:
-    - python -c "import sys; print(sys.path)"
-    - python -c "import fast_dijkstra; print(fast_dijkstra.__version__)"
+  imports:
+    - fast_dijkstra
 
 about:
   home: https://github.com/chenwei-zhang/fast_dijkstra

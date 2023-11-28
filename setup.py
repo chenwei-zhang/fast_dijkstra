@@ -9,6 +9,7 @@ setup(
     ],
     author='Chenwei Zhang',
     author_email='chwzhan@gmail.com',
+    py_modules=['fast_dijkstra'],
     description='A Python package for Fast Dijkstra\'s algorithm with limited neighborhood exploration',
     url='https://github.com/chenwei-zhang/fast_dijkstra',
     license='GNU GPLv3',
@@ -16,7 +17,7 @@ setup(
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Science/Research',
-        'Topic :: Scientific/Engineering :: Mathematics'
+        'Topic :: Scientific/Engineering :: Mathematics',
         'Programming Language :: Python :: 3',
     ],
-)   
+)

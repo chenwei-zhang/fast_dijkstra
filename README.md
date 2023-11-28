@@ -3,12 +3,24 @@ The script defines a function dijkstra_n_shortest_paths that efficiently compute
 
 ## Overview
 
-The `dijkstra_n_shortest_paths` function is a Python implementation of Dijkstra's algorithm to find a specified number of shortest paths in a weighted graph.
+The `fast_dijkstra` package is a Python implementation of Dijkstra's algorithm to find a specified number of shortest paths (top K) in a weighted graph.
 
-## Installation
+## Quick installation
+```bash
+conda install -c chenweizhang fast_dijkstra
+```
+
+## Local GitHub installation
 
 ```bash
-pip install fast-dijkstra
+# clone project   
+git clone https://github.com/chenwei-zhang/fast_dijkstra
+
+# install vida (recommond install in a virtual environment) 
+conda activate <myenv>
+cd fast_dijkstra
+conda update pip -y
+pip install -e .   
 ```
 
 ## Usage

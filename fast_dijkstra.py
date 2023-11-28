@@ -1,4 +1,4 @@
-# fast_dijkstra.py
+# fast_dijkstra/fast_dijkstra.py
 __version__ = '0.1.0'
 
 import numpy as np
