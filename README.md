@@ -1,6 +1,6 @@
 # Fast-Dijkstra: Dijkstra's N-Shortest Paths Finder
 
-![](https://img.shields.io/badge/fast__dijkstra-0.1.0-gold)
+[![](https://img.shields.io/badge/fast__dijkstra-0.1.0-gold)](https://anaconda.org/ChenweiZhang/fast_dijkstra)
 ![](https://anaconda.org/chenweizhang/fast_dijkstra/badges/latest_release_date.svg)
 ![](https://anaconda.org/chenweizhang/fast_dijkstra/badges/platforms.svg)
 ![](https://anaconda.org/chenweizhang/fast_dijkstra/badges/license.svg)
