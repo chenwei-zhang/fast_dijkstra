@@ -1,6 +1,12 @@
 # Fast-Dijkstra: Dijkstra's N-Shortest Paths Finder
 The script defines a function dijkstra_n_shortest_paths that efficiently computes a specified number of shortest paths in a weighted graph using Dijkstra's algorithm, returning the paths as an array of tuples.
 
+![](https://img.shields.io/badge/fast__dijkstra-0.1.0-gold)
+![](https://anaconda.org/chenweizhang/fast_dijkstra/badges/latest_release_date.svg)
+![](https://anaconda.org/chenweizhang/fast_dijkstra/badges/platforms.svg)
+![](https://anaconda.org/chenweizhang/fast_dijkstra/badges/license.svg)
+![](https://anaconda.org/chenweizhang/fast_dijkstra/badges/downloads.svg)
+
 ## Overview
 
 The `fast_dijkstra` package is a Python implementation of Dijkstra's algorithm to find a specified number of shortest paths (top K) in a weighted graph.
