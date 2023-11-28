@@ -1,0 +1,29 @@
+package:
+  name: fast_dijkstra
+  version: '0.1.0'
+
+source:
+  path: ..
+
+requirements:
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - numpy>=1.20
+
+test:
+  commands:
+    - python -c "import sys; print(sys.path)"
+    - python -c "import fast_dijkstra; print(fast_dijkstra.__version__)"
+
+about:
+  home: https://github.com/chenwei-zhang/fast_dijkstra
+  license: GPL-3.0
+  license_family: GPL3
+  license_file: LICENSE
+
+extra:
+  recipe-maintainers:
+    - chenwei-zhang
