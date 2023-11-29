@@ -6,7 +6,8 @@ source:
   path: ..
 
 build:
-  script: python setup.py install
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   build:
@@ -14,7 +15,6 @@ requirements:
     - setuptools
   run:
     - python
-    - numpy >=1.20
 
 test:
   imports:

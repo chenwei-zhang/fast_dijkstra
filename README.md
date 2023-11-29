@@ -32,7 +32,6 @@ pip install -e .
 ## Usage
 
 ```python
-import numpy as np
 from fast_dijkstra import dijkstra_n_shortest_paths
 
 # Define a weighted graph as a dictionary
@@ -61,7 +60,7 @@ def dijkstra_n_shortest_paths(graph, source, n_neigh=100):
     - n_neigh (int, optional): The maximum number of shortest paths to discover (default is 100).
 
     Returns:
-    - numpy.ndarray: An array containing tuples representing discovered paths.
+    - List: A list containing tuples representing discovered paths.
     """
 ```
 

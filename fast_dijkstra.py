@@ -1,7 +1,6 @@
 # fast_dijkstra/fast_dijkstra.py
 __version__ = '0.1.0'
 
-import numpy as np
 import heapq
 
 def dijkstra_n_shortest_paths(graph, source, n_neigh=100):
@@ -14,7 +13,7 @@ def dijkstra_n_shortest_paths(graph, source, n_neigh=100):
     - n_neigh (int, optional): The maximum number of shortest paths to discover (default is 100).
 
     Returns:
-    - numpy.ndarray: An array containing tuples representing discovered paths.
+    - List: A list containing tuples representing discovered paths.
     """
     
     # Initialize data structures
@@ -44,4 +43,4 @@ def dijkstra_n_shortest_paths(graph, source, n_neigh=100):
                             
         paths.append((source, current_node, distances[current_node]))
         
-    return np.array(paths)
+    return paths
